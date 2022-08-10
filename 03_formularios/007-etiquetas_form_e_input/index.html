@@ -7,10 +7,18 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="">
-        <label for="Nombre">
-            <span>Cual es tu nombre?</span>
-            <input type="text" id="Nombre">
+    <form action="">             <!-- ETIQUETA DE FORMULARIO-->
+        <label for="Nombre">         <!-- ETIQUETA DE INPUT-->
+            <span>Cual es tu nombre?</span>       <!-- ETIQUETA DE SPAN, PREGUNTA A CONTESTAR-->
+            <input type="text" id="Nombre" placeholder="Tu nombre">    <!-- INPUT, FORMATO DEL FORMULARIO-->
+        </label>
+        <label for="Inicio-curso">
+            <span>Que dia comenzaste el curso?</span>
+            <input type="date" id="Inicio-curso">               <!-- INPUT, FORMATO DEL FORMULARIO CALENDARIO-->
+        </label>
+        <label for="Horario">
+            <span>En que horario estudias?</span>
+            <input type="time" id="Horario">                <!-- INPUT, FORMATO DEL FORMULARIO HORARIO-->
         </label>
     </form>
 </body>
