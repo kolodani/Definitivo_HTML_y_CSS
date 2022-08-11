@@ -1,0 +1,24 @@
+header{
+    color: blue;
+    background-color: darkgray;
+    font-size: 25px;
+}
+
+#titulo{
+    color: purple;
+    background-color: burlywood;
+    font-size: 40px;
+}
+
+body{
+    background-color: indianred;
+}
+
+main{
+    background-color: lightgray;
+}
+
+footer{
+    background-color: lightblue;
+    font-size: 20px;
+}
